@@ -1,4 +1,6 @@
-# lexplore - simple project explorer layout for netrw
+# Lexplore
+
+Simple project explorer layout for netrw.
 
 ## About
 
