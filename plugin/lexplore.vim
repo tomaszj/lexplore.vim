@@ -3,10 +3,10 @@
 "
 " ------------------------------------------------------------------------------
 " Exit when your app has already been loaded (or "compatible" mode set)
-" if exists("g:loaded_lexplore") || &cp
-"   finish
-" endif
-" let g:loaded_lexplore= "0.0.1"
+if exists("g:loaded_lexplore") || &cp
+  finish
+endif
+let g:loaded_lexplore= "0.0.1"
 
 " Close all splits except current one, open netrw window, set its size and
 " switch back to next split.
